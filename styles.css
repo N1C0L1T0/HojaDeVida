@@ -75,3 +75,60 @@
     transform: scale(1.1); /* Aumenta la escala en un 10% */
 }
 
+.sobre-2 {
+    color: rgb(66, 66, 66); 
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    margin-top: 2rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
+.sobre-3 {
+    color: rgb(66, 66, 66); 
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    margin-top: 2rem;
+    padding-right: 2rem;
+    padding-left: 0px;
+}
+
+.lista-2 {
+    color: rgb(0, 0, 0); 
+    font-family: "Montserrat", sans-serif; 
+    text-align: justify;
+    padding-left: 5rem;
+}
+
+.fa-li {
+    position: absolute;
+    left: -2.14285714em;
+    width: 2.14285714em;
+    top: .14285714em;
+    text-align: center;
+}
+
+.course, .institution{
+    padding: 0px;
+    margin: 0px;
+}
+
+.lista-sep {
+    margin-bottom: 10px;
+}
+
+.course {
+    color: rgb(0, 0, 0); 
+    font-family: "Montserrat", sans-serif; 
+}
+
+.institution {
+    color: rgb(66, 66, 66);
+}
+
+.footer, .p.footer {
+    background-color: #9c00bb;
+    color: #9c00bb;
+}

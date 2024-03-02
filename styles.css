@@ -1,0 +1,77 @@
+.navbar {
+    background-color: #f0f0f0;
+    /* Aplica la sombra */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.nav-titulo {
+    color: black; 
+    font-family: 'Oswald', sans-serif; 
+    font-size: 25px; 
+    margin-bottom: 0; 
+    display: inline;
+}
+
+.navbar .nav-link.active {
+    color: #585858;
+    font-family: "Montserrat", sans-serif; 
+    font-optical-sizing: auto;
+    font-weight: bold;
+}
+
+.navbar .nav-link.active:hover {
+    color: #9c00bb;
+}
+
+.foto-perfil {
+    max-width: 350px; /* Establece un ancho máximo para la imagen */
+    height: auto; /*Permite que la altura se ajuste automáticamente */
+}
+
+.sobre-mi {
+    color: rgb(66, 66, 66); 
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    padding-top: 5rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
+.contenido-sobre-mi {
+    color: rgb(0, 0, 0); 
+    font-family: "Montserrat", sans-serif; 
+    font-size: 20px;
+    text-align: justify;
+    padding-right: 5rem;
+    padding-left: 2rem;
+}
+
+.h1-n {
+    color: rgb(0, 0, 0); 
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 30px;
+}
+
+.carrera {
+    color: rgb(117, 117, 117); 
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 25px;
+}
+
+.icons {
+    color: #9c00bb;
+    display: inline;
+}
+
+/* Define la regla de transformación para el icono */
+.icons {
+    transition: transform 0.1s ease-in-out; /* Transición suave */
+}
+
+/* Cuando se pasa el mouse sobre el icono, se aumenta su tamaño */
+.icons:hover {
+    color: rgb(0, 178, 223);
+    transform: scale(1.1); /* Aumenta la escala en un 10% */
+}
+

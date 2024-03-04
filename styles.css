@@ -1,4 +1,9 @@
 .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
     background-color: #f0f0f0;
     /* Aplica la sombra */
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
@@ -28,7 +33,7 @@
     height: auto; /*Permite que la altura se ajuste automáticamente */
 }
 
-.sobre-mi {
+.titulos {
     color: rgb(66, 66, 66); 
     font-family: "IBM Plex Sans", sans-serif;
     font-weight: bold;
@@ -85,16 +90,6 @@
     padding-left: 2rem;
 }
 
-.sobre-3 {
-    color: rgb(66, 66, 66); 
-    font-family: "IBM Plex Sans", sans-serif;
-    font-weight: bold;
-    font-size: 35px;
-    margin-top: 2rem;
-    padding-right: 2rem;
-    padding-left: 0px;
-}
-
 .lista-2 {
     color: rgb(0, 0, 0); 
     font-family: "Montserrat", sans-serif; 
@@ -132,3 +127,30 @@
     background-color: #9c00bb;
     color: #9c00bb;
 }
+
+.div-p {
+    background-color: #dfdfdf;
+}
+
+.pro-1 {
+    padding: 20px;
+}
+
+.home-section:nth-of-type(even) {
+    background-color:  #dfdfdf;
+}
+
+.home-section {
+    padding: 50px 0px 50px 0px;
+}
+
+.card-text {
+    text-align: justify;
+}
+
+.card{
+    background-color: #ffffff;
+    /* Aplica la sombra */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+

@@ -168,7 +168,7 @@
     margin-bottom: 50px;
 }
 
-.fa-ul2 {
+.list-unstyled {
     padding-top: 5rem;
 }
 
@@ -177,20 +177,30 @@
     align-items: center; /* Alinea verticalmente los elementos */
 }
 
-.fa-li2 {
+.icon {
     margin-right: 40px; /* Ajusta el espacio entre el icono y el texto según sea necesario */
     font-size: 4em;
 }
 
 .contact-p {
-    color: rgb(0, 0, 0); 
-    font-family: "IBM Plex Sans", sans-serif;
-    font-size: 30px;
+    font-size: 2.5vw; /* Tamaño del texto de contacto ajustado al ancho de la ventana gráfica */
+    color: black;
+}
+
+.description2 {
+    font-size: 2vw; /* Tamaño del texto de descripción ajustado al ancho de la ventana gráfica */
 }
 
 .contact-p:hover {
     color: rgb(0, 178, 223);
 }
+
+
+
+
+
+
+
 
 .footer-text {
     color: rgb(255, 255, 255); 

@@ -158,3 +158,47 @@
     display: flex;
     justify-content: space-between;
 }
+
+.col-cont {
+    display: inline;
+    
+}
+
+.lista-sep2 {
+    margin-bottom: 50px;
+}
+
+.fa-ul2 {
+    padding-top: 5rem;
+}
+
+.lista-sep2 {
+    display: flex;
+    align-items: center; /* Alinea verticalmente los elementos */
+}
+
+.fa-li2 {
+    margin-right: 40px; /* Ajusta el espacio entre el icono y el texto según sea necesario */
+    font-size: 4em;
+}
+
+.contact-p {
+    color: rgb(0, 0, 0); 
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 30px;
+}
+
+.contact-p:hover {
+    color: rgb(0, 178, 223);
+}
+
+.footer-text {
+    color: rgb(255, 255, 255); 
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+.col-footer {
+    padding: 50px;
+}

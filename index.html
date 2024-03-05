@@ -29,12 +29,12 @@
 
 
     <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg custom-navbar">
+    <nav class="navbar navbar-expand-lg custom-navbar fixed-top">
         <div class="container col-lg-10 col-md-6 col-sm-12">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand navbar-brand-sm" href="#">
                 <p class="nav-titulo">NICOLAS TRUJILLO MANJARRES</p>
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler ml-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
@@ -60,13 +60,13 @@
 
     <!-- SOBRE MI -->
     <section id="sobre-mi" class="home-section">  
-        <div class="container-fluid">
+        <div class="container">
             <div class="row">
-                <div class="col-md-5 d-flex flex-column justify-content-center align-items-center">
+                <div class="col-sm-12 col-md-4 col-lg-4 d-flex flex-column justify-content-center align-items-center">
                     <img src="Assets\imgs\foto.png" class="foto-perfil" alt="foto-perfil">
                     <h1 class="h1-n">Nicolas Trujillo Manjarres</h1>
                     <h2 class="carrera">Ingeniero Electronico</h2>
-
+                
                     <div class="row">
                         <div class="col">
                             <a class="iconos-link active" href="https://mail.google.com/mail/?view=cm&fs=1&to=nicolastrujillom16@gmail.com" target="_blank"><i class="icons fas fa-envelope fa-3x my-3"></i></a>
@@ -81,10 +81,10 @@
                             <a class="iconos-link active" href="https://github.com/N1C0L1T0" target="_blank"><i class="icons fa-brands fa-github fa-3x my-3"></i></a>
                         </div>
                     </div>
-                    
                 </div>
-                <div class="col-md-7">
-                    <h1 class="titulos">Sobre mi</h1>
+                
+                <div class="col-sm-12 col-md-8 col-lg-8">
+                    <h1 class="titulos1">Sobre mi</h1>
                     <p class="contenido-sobre-mi">Soy estudiante de décimo semestre de Ingeniería Electrónica y técnico en 
                         sistemas con más de 2 años de experiencia, he trabajado en diversos roles, desde 
                         brindar soporte técnico como Monitor Administrativo, contribuir en proyectos 
@@ -140,7 +140,7 @@
     <section id="proyectos" class="home-section">
         <div class="container div-p">
             <div class="row">
-                <div class="col-md-4"><h1 class="titulos">Proyectos</h1></div>
+                <div class="col-md-4 mb-5"><h1 class="titulos">Proyectos</h1></div>
                 <div class="col-md-8">
                     <div class="card" style="width: auto;">
                         <a href="#"><img src="Assets\imgs\card.png" class="card-img-top" alt="..."></a>
@@ -160,48 +160,71 @@
     <section id="experiencia" class="home-section">
         <div class="container div-e">
             <div class="row">
-                <div class="col-lg-4 col-md-6">
+
+
+
+                <div class="col-sm-12 col-md-12 col-lg-4 ">
                     <H1 class="titulos">Experiencia</H1>
                 </div>
-                <div class="col-lg-8 col-md-6">
-                    <div class="card-container">
-                        <div class="card" style="width: 22rem;">
-                            <img src="Assets\imgs\OIP.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                              <h5 class="card-title">Monitor Administrativo</h5>
-                              <p class="card-text">Como monitor, me he destacado en actividades clave, como brindar atención técnica y soporte a la comunidad universitaria, gestionar equipos para aulas interactivas y salones. Poseo habilidades sólidas en herramientas de ofimática, aplicaciones de Google, Excel, Word, y experiencia en software especializado...</p>
-                              <a href="#" class="btn" style="background-color: #9c00bb; color: white;">Más info</a>
+
+
+
+                <div class="col-sm-12 col-md-12 col-lg-8">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12 col-lg-6 mt-5">
+                            <div class="card">
+                                <img src="Assets\imgs\OIP.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">Monitor Administrativo</h5>
+                                  <p class="card-text">Como monitor, me he destacado en actividades clave, como brindar atención técnica y soporte a la comunidad universitaria, gestionar equipos para aulas interactivas y salones. Poseo habilidades sólidas en herramientas de ofimática, aplicaciones de Google, Excel, Word, y experiencia en software especializado...</p>
+                                  <a href="#" class="btn" style="background-color: #9c00bb; color: white;">Más info</a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="card" style="width: 22rem;">
-                            <img src="Assets\imgs\asis.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                              <h5 class="card-title">Asistente de investigación</h5>
-                              <p class="card-text">Desempeñé un papel crucial al apoyar la creación de mapas tipo ortomosaicos utilizando programas como Pix4Dmapper y QGIS. Además, proporcioné asistencia en actividades de monitoreo en cultivos de arroz, contribuyendo a la toma de decisiones informadas y al éxito de los proyectos agrícolas.</p>
-                              <a href="#" class="btn" style="background-color: #9c00bb; color: white;">Más info</a>
+                        </div>    
+                        <div class="col-sm-12 col-md-12 col-lg-6 mt-5">
+                            <div class="card">
+                                <img src="Assets\imgs\asis.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">Asistente de investigación</h5>
+                                  <p class="card-text">Desempeñé un papel crucial al apoyar la creación de mapas tipo ortomosaicos utilizando programas como Pix4Dmapper y QGIS. Además, proporcioné asistencia en actividades de monitoreo en cultivos de arroz, contribuyendo a la toma de decisiones informadas y al éxito de los proyectos agrícolas.</p>
+                                  <a href="#" class="btn" style="background-color: #9c00bb; color: white;">Más info</a>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="card-container pt-5">
-                        <div class="card" style="width: 22rem;">
-                            <img src="Assets\imgs\protocolo.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Asistente de protocolo</h5>
-                                <p class="card-text">he sido responsable de ayudar a coordinar y ejecutar eventos internos y externos de la universidad. Mis funciones incluyen asegurar el cumplimiento del protocolo, proporcionar un servicio excepcional al usuario y registrar la asistencia en los eventos. Mi compromiso con la puntualidad y la atención al detalle ha sido clave para garantizar el éxito de ...</p>
-                                <a href="#" class="btn" style="background-color: #9c00bb; color: white;">Más info</a>
-                            </div>
-                        </div> 
-                        <div class="card" style="width: 22rem;">
-                            <img src="Assets\imgs\a.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Trabajo de Grado</h5>
-                                <p class="card-text">Me involucré en la estimación de cambios de altura de un cultivo de arroz, utilizando nubes de puntos de imágenes RGB-UAV empleando procesamiento de imágenes y Python. Esta labor permitió un seguimiento preciso de la evolución de los cultivos, proporcionando datos valiosos para optimizar la gestión agrícola y garantizar un rendimiento óptimo</p>
-                                <a href="#" class="btn" style="background-color: #9c00bb; color: white;">Más info</a>
-                            </div>
-                        </div> 
-                    </div>   
                 </div>
             </div>
+            
+            <div class="row">
+
+                <div class="col-sm-12 col-md-12 col-lg-4 "></div>
+
+                <div class="col-sm-12 col-md-12 col-lg-8">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12 col-lg-6 mt-5">
+                            <div class="card">
+                                <img src="Assets\imgs\protocolo.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Asistente de protocolo</h5>
+                                    <p class="card-text">he sido responsable de ayudar a coordinar y ejecutar eventos internos y externos de la universidad. Mis funciones incluyen asegurar el cumplimiento del protocolo, proporcionar un servicio excepcional al usuario y registrar la asistencia en los eventos. Mi compromiso con la puntualidad y la atención al detalle ha sido clave para garantizar el éxito de ...</p>
+                                    <a href="#" class="btn" style="background-color: #9c00bb; color: white;">Más info</a>
+                                </div>
+                            </div>
+                        </div>    
+                        <div class="col-sm-12 col-md-12 col-lg-6 mt-5">
+                            <div class="card">
+                                <img src="Assets\imgs\a.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Trabajo de Grado</h5>
+                                    <p class="card-text">Me involucré en la estimación de cambios de altura de un cultivo de arroz, utilizando nubes de puntos de imágenes RGB-UAV empleando procesamiento de imágenes y Python. Esta labor permitió un seguimiento preciso de la evolución de los cultivos, proporcionando datos valiosos para optimizar la gestión agrícola y garantizar un rendimiento óptimo</p>
+                                    <a href="#" class="btn" style="background-color: #9c00bb; color: white;">Más info</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                     
         </div>
     </section>
     <!-- FIN EXPERIENCIA -->
